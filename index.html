@@ -1,12 +1,436 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <!-- <li>
+                <a href="#contact">Contact</a>
+            </li> -->
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Eilon Geos Blanche</h1>
+            <h2>Software Engineer</h2>
+            <a href="#" class="btn-rounded-white" download>Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        A technlogy enthusiast individual that enjoys solving different kinds of problems and provide solutions using software engineering and development to make jobs much simpler and easier. An individual who loves to learn the latest trends in software development and technology. Adaptable, Team player, Hardworking and can work under pressure.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="November 2019 – Present">
+                <h3>Sparksoft Solutions Inc</h3>
+                <h4>Software Engineer</h4>
+                <p>
+                    Responsible in designing and creating new programs or applications that matches the clients requirements and specification to be delivered in agreed timeline. Enhancing legacy and existing systems to improve existing programs. Coordinating and supervising other developers in solving coding problems and technical stuffs              
+                </p>
+            </div>
+
+            <div data-date="May 2018 – October 2019">
+                <h3>Firefly Electric and Lighting Corporation</h3>
+                <h4>Associate Software Engineer</h4>
+                <p>
+                    Responsible in creating new programs for different types of users. Enhancing legacy and existing systems to improve existing programs.                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Pamantasan ng Lungsod ng Maynila</h3>
+            <span class="education-date">June 2014 - Apr 2018</span>
+            <h4>Bachelor of Science in Computer Studies Major in Information Technology</h4>
+            <!-- <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            </p> -->
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Ramon Magsaysay High School España Manila</h3>
+            <span class="education-date">June 2010 - March 2014</span>
+            <h4>Secondary Degree</h4>
+            <!-- <ul>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+            </ul> -->
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Single Travel Profile</h3>
+                        <p>
+                            An application created using different frameworks and languages (node.js,php,python etc.) for Bureau of Immigrations used to help an officer in tracking persons of interests from all over the world that is entering the country                        
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>QC E-services appointment system</h3>
+                        <p>
+                            An application that is Created using codeigniter that allows users to set an appointment to a certain department in Quezon City Hall
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Nomis Cleandesk Application and Nomis AssetBank Application</h3>
+                        <p>
+                            Created using ASP.net core to provide service that allow users to register and track cleaning requests and tasks, also allows user to cater request for services and to track moveable assets.                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Euroasia Sales and Inventory System</h3>
+                        <p>
+                            Web application in Laravel framework that manages sales and allows tracking of inventory and generate reports. Coordinated with other Software Engineers to improve performance of site and adding several features such as new report format and assigning of department to a certain division                        <!-- <a href="#">View Project</a> -->
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Provizion Marketing Website</h3>
+                        <p>
+                            An application created using Codeigniter framework that allows user to do tasks about marketing, sales and invoices                        
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Case Management System</h3>
+                        <p>
+                            A web application developed using Codeigniter framework that allows user to do tasks such as track and update a certain case, uploading documents about a certain case, log services done and bill the client accordingly
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Globe Universal Lines Access</h3>
+                        <p>
+                            A software developed in Codeigniter that has network related features.Enhanced the software as per the client request such as improving processing speed of some functions, debugging software error, adding new features such as report generation and improving API responses.
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Provizion Security App</h3>
+                        <p>
+                            Software developed using Javascript, Firebase and Google Cloud that allows user of app to notify a person in case of an emergency.
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Felco Delivery Application</h3>
+                        <p>
+                            Created a Web application using PHP with framework codeigniter, JavaScript, jQuery, MySQL, Several plugins and libraries to view status of delivery, view information of deliveries, edit certain delivery details and report generation                        
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Felco Food for the Day Web site</h3>
+                        <p>
+                            Enhanced a current Google site which shows food for everyone in the head office only and not showing the food list in branches. Used Google scripts, PHP (codeigniter), Mysql, JavaScript, jQuery and other plugins, libraries                        
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Combine One Portal</h3>
+                        <p>
+                            Created and Enhanced a system that is a combination of programs used by different users and departments that help them in their daily tasks. The system is Created using PHP, MVC architecture, OOP concepts and MySQL
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Eyework</h3>
+                        <p>
+                            Developed a Mobile Application using Ionic Framework and Desktop Application using C# (Winforms) that allows a users mobile phone to connect to a PC and make the PC do functions such as open the camera and take a picture, take a screenshot of current screen and use other PC functions such as shutdown and restart                        
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img width="300" height="300" src="images/project.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Better Choice Industry Sales and Inventory System</h3>
+                        <p>
+                            Developed a Desktop Application using C# (Winforms) that allows a users to record and track sales and inventory queries/concerns                       
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>MVC</li>
+            <li>Linux</li>
+            <li>Database Management</li>
+            <li>API creation</li>
+            <li>Git</li>
+            <li>Javascript</li>
+            <li>Angular</li>
+            <li>JQuery</li>
+            <li>Node.js</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>Codeigniter</li>
+            <li>Apache</li>
+            <li>C#</li>
+            <li>IIS</li>
+            <li>Asp.net core</li>
+            <li>Winforms</li>
+            <li>Google Scripts</li>
+            <li>Google Cloud</li>
+            <li>Firebase</li>
+            <li>SQL Server</li>
+            <li>NoSQL</li>
+            <li>MongoDB</li>
+            <li>Mysql</li>
+            <li>AWS Lightsail</li>
+            <li>AWS ec2</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+<!-- 
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div> -->
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2021 EILON GEOS BLANCHE
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/EilonBlanche" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li> -->
+                        <li>
+                            <a href="https://linkedin.com/eilon-geos-blanche-a23335175" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li> -->
+                        <!-- <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li> -->
+                        <!-- <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
